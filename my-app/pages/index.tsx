@@ -5,8 +5,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div
-      className= "grid grid-rows-[auto_1fr_auto] min-h-screen max-w-5xl mx-auto px-4 sm:px-6 lg:px-8"
-    >
+      className= "grid grid-rows-[auto_1fr_auto] min-h-screen max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
