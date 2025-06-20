@@ -17,20 +17,26 @@ html {
 .carousel-title {
   color: white;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 18px;
   text-align: left;
-  margin-bottom: 32px;
+  margin-bottom:10px;
 }
-
+/* @media (min-width: 365px) {
+  .carousel-title {
+    font-size: 25px;
+  }
+} */
 @media (min-width: 768px) {
   .carousel-title {
     font-size: 32px;
+      margin-bottom:15px;
   }
 }
 
 @media (min-width: 1024px) {
   .carousel-title {
     font-size: 36px;
+    margin-bottom: 20x;
   }
 }
 

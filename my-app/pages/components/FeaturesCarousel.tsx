@@ -31,8 +31,8 @@ const FeatureCard = ({ title, text, image }: FeatureCardProps) => (
         unoptimized
       />
     </div>
-    <h3 className="text-lg font-bold mb-2">{title}</h3>
-    <p className="text-sm text-[#b0b0b0]">{text}</p>
+    <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2">{title}</h3>
+    <p className="text-sm sm:text-base md:text-lg text-[#b0b0b0]">{text}</p>
   </div>
 );
 
@@ -57,8 +57,8 @@ const FeaturesCarousel = () => {
   ];
 
   return (
-    <section className={`flex justify-center px-4 ${styles.carouselSection}`}>
-      <div className="w-full max-w-[750px]">
+    <section className={`flex ${styles.carouselSection}`}>
+      <div className="w-full">
         <h2 className="relative carousel-title">What we’re Building</h2>
 
         <div className="carousel-wrapper">

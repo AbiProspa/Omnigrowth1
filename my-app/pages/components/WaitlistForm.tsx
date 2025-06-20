@@ -41,24 +41,24 @@ const WaitlistForm = ({ scrollRef }: WaitlistFormProps) => {
   return (
     <section
       ref={scrollRef}
-      className="relative z-10 w-full py-16 scroll-mt-24 px-4 flex justify-center"
+      className="relative z-10 w-full py-16 scroll-mt-24"
     >
-      <div className="w-full max-w-[750px]">
+      <div className="w-full">
         <h2
-          className="text-[36px] leading-[24px] font-bold text-white mb-1 tracking-normal text-left"
+          className="text-[20px] sm:text-[36px] leading-[24px] font-bold text-white tracking-normal text-left"
           style={{ fontFamily: "Satoshi, sans-serif" }}
         >
           Get Early Access
         </h2>
         <p
-          className="text-[33px] leading-[64px] font-bold text-[#b0b0b0] mb-8 text-left"
+          className="text-[19px] sm:text-[36px] leading-[64px] font-bold text-[#b0b0b0] mb-8 text-left "
           style={{ fontFamily: "Satoshi, sans-serif" }}
         >
           Join the waitlist
         </p>
 
         <form
-          className="flex flex-col gap-6 w-full  max-w-[750px] sm:px-6 md:px-0"
+          className="flex flex-col gap-6 w-full sm:px-6 md:px-0"
           onSubmit={handleSubmit}
         >
           <div className="relative">
