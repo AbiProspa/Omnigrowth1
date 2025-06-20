@@ -43,7 +43,7 @@ const Hero = ({ onScrollToWaitlist }: HeroProps) => {
         </div>
       </div>
 
-      <div className="hidden lg:block absolute right-0 top-10 z-0 ">
+      <div className="hidden lg:block relative z-10 mt-10 lg:mt-0">
         <Image
           src={Macbook}
           alt="Dashboard Preview"
