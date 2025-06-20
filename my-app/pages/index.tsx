@@ -20,11 +20,10 @@ export default function Home() {
           <div className="absolute w-[40rem] h-[10rem] bg-[#E1306C] opacity-70 rounded-full blur-3xl rotate-[20deg] left-[3rem] top-[1rem] sm:left-[14rem] md:left-[18rem] lg:w-[38rem] lg:h-[30rem] lg:left-[30rem] lg:-top-[15rem]" />
           {/* <div className="hidden lg:block absolute w-[30rem] h-[22rem] bg-[#FFDC80] opacity-70 rounded-full blur-3xl rotate-[4deg] left-[70rem] -top-[10rem]" /> */}
           <div
-  className="absolute w-[30rem] h-[22rem] bg-[#FFDC80] opacity-70 rounded-full blur-3xl rotate-[4deg] left-[12rem] top-[-3rem] sm:left-[12rem] sm:top-[50rem] md:left-[35rem] md:top-[-10rem] lg:w-[30rem] lg:h-[20rem] lg:left-[50rem] lg:top-[-10rem] xl:left-[65rem] xl:-top-[10rem]
+            className="absolute w-[30rem] h-[22rem] bg-[#FFDC80] opacity-70 rounded-full blur-3xl rotate-[4deg] left-[12rem] top-[-3rem] sm:left-[12rem] sm:top-[50rem] md:left-[35rem] md:top-[-10rem] lg:w-[30rem] lg:h-[20rem] lg:left-[50rem] lg:top-[-10rem] xl:left-[65rem] xl:-top-[10rem]
   "
-/>
-
-        </div>  
+          />
+        </div>
         <main className="relative z-10 mx-auto pl-4 sm:pl-8 md:pl-16 lg:pl-[200px] xl:pl-[330px] 2xl:pl-[360px] bg-transparent">
           <Navbar />
           <Hero
