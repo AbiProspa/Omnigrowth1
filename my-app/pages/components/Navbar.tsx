@@ -7,14 +7,12 @@ import faceIcon from "@/public/faceIcon.png";
 
 const Navbar = () => {
   return (
-    <nav className="relative z-10 flex items-center w-full pt-5">
-      <div className="flex items-center pl-0 w-[10px] sm:w-[10px] md:w-[160px] lg:w-[90px]
-">
+    <nav className="relative z-10 flex items-center w-full pt-5 font-sans">
+      <div className="relative w-[80px] sm:w-[95px] md:w-[95px] lg:w-[110px] h-10">
         <Image
           src={logo}
           alt="Omnigrowth Logo"
-          // width={140}
-          // height={40}
+          fill
           className="object-contain"
           priority
         />
