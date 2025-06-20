@@ -31,7 +31,7 @@ const Navbar = () => {
           </span>
           About
         </button>
-        <button className="flex items-center gap-2 border bg-white text-black px-2 sm:px-3 py-1 rounded-full text-[10px] sm:text-xs font-semibold shadow hover:bg-gray-100 transition cursor-pointer h-8 sm:h-9">
+        <button className="flex items-center gap-2 bg-white text-black px-2 sm:px-3 py-1 rounded-full text-[10px] sm:text-xs font-semibold shadow hover:bg-gray-100 transition cursor-pointer h-8 sm:h-9">
           <span className="w-4 h-4 flex items-center justify-center rounded-full bg-black/10">
             <Image
               src={faceIcon}

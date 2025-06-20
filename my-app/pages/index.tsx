@@ -24,7 +24,7 @@ export default function Home() {
   "
           />
         </div>
-        <main className="relative z-10 mx-auto pl-4 sm:pl-8 md:pl-24 lg:pl-[210px] xl:pl-[350px] 2xl:pl-[360px] bg-transparent">
+        <main className="relative z-10 mx-auto pl-4 sm:pl-8 md:pl-4 lg:pl-[210px] xl:pl-[300px] 2xl:pl-[360px] bg-transparent">
           <Navbar />
           <Hero
             onScrollToWaitlist={() =>
