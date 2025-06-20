@@ -10,13 +10,14 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-transparent py-8 flex flex-col items-center text-center px-4 sm:px-6">
+    <footer className="w-full bg-transparent py-8 flex flex-col items-center text-center px-4 sm:px-6 mb-10">
       <p className="mb-6 text-white text-base sm:text-lg md:text-xl font-medium max-w-xl leading-relaxed">
-        Witness the beginning of an industry shift, <br className="hidden sm:block" />
-        join the revolution early.
+        Witness the beginning of an industry shift, join the{" "}
+        <br className="hidden sm:block" />
+        revolution early.
       </p>
 
-      <div className="flex flex-wrap justify-center gap-4 mb-6 text-xl sm:text-2xl text-[#b0b0b0]">
+      <div className="flex flex-wrap justify-center gap-5 mb-5 text-xl sm:text-1xl text-[#b0b0b0]">
         <a href="#" aria-label="LinkedIn" className="hover:text-white">
           <FaLinkedin />
         </a>
@@ -40,7 +41,7 @@ export default function Footer() {
         </a>
       </div>
 
-      <div className="text-sm sm:text-base text-[#b0b0b0]">
+      <div className="text-base sm:text-lg text-[#807e7e] tracking-wider">
         © All Rights Reserved. Techverse Inc.
       </div>
     </footer>

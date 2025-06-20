@@ -57,7 +57,9 @@ const FeaturesCarousel = () => {
   ];
 
   return (
-    <section className="carousel-section">
+    <section className="carousel-section flex justify-center px-4">
+        <div className="w-full max-w-[750px]">
+
       <h2 className="relative carousel-title">What we’re Building</h2>
 
       <div className="carousel-wrapper">
@@ -78,6 +80,7 @@ const FeaturesCarousel = () => {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </section>
   );

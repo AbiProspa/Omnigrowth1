@@ -24,18 +24,17 @@ export default function Home() {
   "
           />
         </div>
-        <main className="relative z-10 mx-auto pl-4 sm:pl-8 md:pl-16 lg:pl-[200px] xl:pl-[330px] 2xl:pl-[360px] bg-transparent">
+        <main className="relative z-10 mx-auto pl-4 sm:pl-8 md:pl-24 lg:pl-[210px] xl:pl-[350px] 2xl:pl-[360px] bg-transparent">
           <Navbar />
           <Hero
             onScrollToWaitlist={() =>
               waitlistRef.current?.scrollIntoView({ behavior: "smooth" })
             }
           />
-          <FeaturesCarousel />
-          <BuiltForStartups />
-          <WaitlistForm scrollRef={waitlistRef} />
         </main>
-
+        <FeaturesCarousel />
+        <BuiltForStartups />
+        <WaitlistForm scrollRef={waitlistRef} />
         <Footer />
       </section>
     </>
