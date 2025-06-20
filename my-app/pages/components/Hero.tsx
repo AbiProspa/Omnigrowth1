@@ -47,7 +47,7 @@ const Hero = ({ onScrollToWaitlist }: HeroProps) => {
         <Image
           src={Macbook}
           alt="Dashboard Preview"
-          className="object-contain w-[400px] md:w-[500px] lg:w-[450px] xl:w-[550px]"
+          className="object-contain w-[400px] md:w-[550px] lg:w-[550px] xl:w-[600px]"
           priority
         />
       </div>

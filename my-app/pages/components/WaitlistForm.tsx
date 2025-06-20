@@ -114,7 +114,7 @@ const WaitlistForm = ({ scrollRef }: WaitlistFormProps) => {
           <button
             type="submit"
             disabled={submitting || success}
-            className={`mt-4 bg-[#A9A6F9] hover:bg-[#8f8be6] text-white font-bold text-lg py-3 rounded-xl transition flex items-center justify-center gap-2 px-6 cursor-pointer ${
+            className={`relative mt-4 bg-[#A9A6F9] hover:bg-[#8f8be6] text-white font-bold text-lg py-3 rounded-xl transition flex items-center justify-center gap-2 px-6 cursor-pointer ${
               (submitting || success) && "opacity-70 cursor-not-allowed"
             }`}
             style={{ fontFamily: "Satoshi, sans-serif" }}

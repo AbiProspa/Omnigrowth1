@@ -8,7 +8,7 @@ import faceIcon from "@/public/faceIcon.png";
 const Navbar = () => {
   return (
     <nav className="relative z-10 flex items-center w-full pt-5 font-sans">
-      <div className="relative w-[80px] sm:w-[95px] md:w-[95px] lg:w-[110px] h-10">
+      <div className="relative w-[80px] sm:w-[95px] md:w-[95px] lg:w-[100px] h-10">
         <Image
           src={logo}
           alt="Omnigrowth Logo"
