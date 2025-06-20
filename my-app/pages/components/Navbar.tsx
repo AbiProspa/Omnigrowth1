@@ -1,16 +1,23 @@
 "use client";
 
 import Image from "next/image";
+import logo from "@/public/logo-main.png";
 import chatIcon from "@/public/chatIcon.png";
 import faceIcon from "@/public/faceIcon.png";
 
 const Navbar = () => {
   return (
-    <nav className="relative z-10 flex items-center w-full pt-3">
-      <div className="flex items-center pl-0">
-        <span className="text-[28px] sm:text-[36px] md:text-[44px] lg:text-[45px] font-bold italic text-transparent bg-clip-text bg-gradient-to-r from-[#FF5F6D] to-[#7C83FD]">
-          hattl
-        </span>
+    <nav className="relative z-10 flex items-center w-full pt-5">
+      <div className="flex items-center pl-0 w-[10px] sm:w-[10px] md:w-[160px] lg:w-[90px]
+">
+        <Image
+          src={logo}
+          alt="Omnigrowth Logo"
+          // width={140}
+          // height={40}
+          className="object-contain"
+          priority
+        />
       </div>
       <div className="flex items-center gap-1 sm:gap-2 ml-auto pr-4 sm:pr-8 md:pr-12 lg:pr-[150px]">
         <button className="flex items-center gap-2 border border-white/80 bg-transparent text-white px-2 sm:px-3 py-1 rounded-full text-[10px] sm:text-xs hover:bg-white/10 transition cursor-pointer h-8 sm:h-9">
