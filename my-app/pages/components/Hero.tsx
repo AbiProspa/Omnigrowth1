@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import Image from "next/image";
-import Macbook from "@/public/Macbook.png"; // Adjust the path as necessary
+import Macbook from "@/public/Macbook.png";
 
 type HeroProps = {
   onScrollToWaitlist: () => void;
@@ -13,14 +13,14 @@ const Hero = ({ onScrollToWaitlist }: HeroProps) => {
     <section className="relative z-10 flex justify-between items-center w-full pt-13 mb-10">
       <div className="flex flex-col gap-6 pt-5 lg:pt-1">
         <h1
-          className="text-[16px] sm:text-[34px] md:text-[48px] lg:text-[34px] xl:text-[42px] font-bold leading-snug text-white mb-3 lg:mb-0"
+          className="text-[30px] sm:text-[34px] md:text-[48px] lg:text-[34px] xl:text-[42px] font-bold leading-snug text-white mb-3 lg:mb-0"
           style={{ fontFamily: "Satoshi, sans-serif" }}
         >
           We are Building The <br />
           World’s Most Advanced <br />
           <span className="text-white">AI Growth Engine</span>
         </h1>
-        <p className="text-[#B0B0B0] text-[12px] sm:text-[14px] md:text-[15px] lg:text-[19px] leading-tight tracking-wide max-w-[420px] mb-9 lg:mb-1">
+        <p className="text-[#B0B0B0] text-[15px] sm:text-[14px] md:text-[15px] lg:text-[19px] leading-tight tracking-wide max-w-[420px] mb-9 lg:mb-1">
           Omnigrowth is an autonomous, AI-powered platform that plans, executes,
           and optimizes your entire growth strategy — so you can focus on
           building.
@@ -28,7 +28,7 @@ const Hero = ({ onScrollToWaitlist }: HeroProps) => {
         <div>
           <button
             onClick={onScrollToWaitlist}
-            className=" relative flex items-center gap-2 bg-[#B0B0B0]/30 hover:bg-[#A0A0A0]/30 text-white text-[13px] sm:text-[14px] md:text-[30px] lg:text-[25px]  font-semibold px-12 lg:px-10 lg:py-3 py-4 rounded-2xl shadow transition cursor-pointer"
+            className=" relative flex items-center gap-2 bg-[#B0B0B0]/30 hover:bg-[#A0A0A0]/30 text-white text-[15px] sm:text-[16px] md:text-[30px] lg:text-[25px]  font-semibold px-12 lg:px-10 lg:py-3 py-4 rounded-2xl shadow transition cursor-pointer "
             style={{ fontFamily: "Satoshi, sans-serif" }}
           >
             Join Waitlist
