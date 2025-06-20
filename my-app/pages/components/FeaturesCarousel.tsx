@@ -1,6 +1,6 @@
 "use client";
 
-import "@/styles/FeaturesCarousel.module.css";
+import styles from "@/styles/FeaturesCarousel.module.css";
 import GroupImage from "@/public/GroupImage.gif";
 import type { StaticImageData } from "next/image";
 import Image from "next/image";
@@ -57,30 +57,29 @@ const FeaturesCarousel = () => {
   ];
 
   return (
-    <section className="carousel-section flex justify-center px-4">
-        <div className="w-full max-w-[750px]">
+    <section className={`flex justify-center px-4 ${styles.carouselSection}`}>
+      <div className="w-full max-w-[750px]">
+        <h2 className="relative carousel-title">What we’re Building</h2>
 
-      <h2 className="relative carousel-title">What we’re Building</h2>
-
-      <div className="carousel-wrapper">
-        <div className="carousel-track">
-          {[...Array(2)].map((_, idx: number) => (
-            <div className="carousel-group" key={idx}>
-              {features.map((feature: Feature, index: number) => (
-                <FeatureCard
-                  key={`${idx}-${index}`}
-                  title={feature.title}
-                  text={feature.text}
-                  image={{
-                    src: GroupImage as StaticImageData,
-                    alt: feature.title,
-                  }}
-                />
-              ))}
-            </div>
-          ))}
+        <div className="carousel-wrapper">
+          <div className="carousel-track">
+            {[...Array(2)].map((_, idx: number) => (
+              <div className="carousel-group" key={idx}>
+                {features.map((feature: Feature, index: number) => (
+                  <FeatureCard
+                    key={`${idx}-${index}`}
+                    title={feature.title}
+                    text={feature.text}
+                    image={{
+                      src: GroupImage as StaticImageData,
+                      alt: feature.title,
+                    }}
+                  />
+                ))}
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
       </div>
     </section>
   );
