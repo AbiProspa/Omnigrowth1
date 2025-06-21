@@ -13,7 +13,7 @@ const BuiltForStartups = () => {
           intelligence, speed, and clarity.
         </p>
 
-        <div className="bg-[#444] rounded-3xl h-70 md:h-110 w-full text-8xl font-bold text-[#888] flex items-center justify-center">
+        <div className="bg-[#444] rounded-3xl h-70 md:h-100 w-full text-8xl font-bold text-[#888] flex items-center justify-center">
           GIF
         </div>
       </div>
