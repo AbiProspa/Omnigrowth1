@@ -1,6 +1,8 @@
 "use client";
 
+import Head from "next/head";
 import { useRef } from "react";
+import SEO from "@/pages/components/SEO";
 import Navbar from "@/pages/components/Navbar";
 import Hero from "@/pages/components/Hero";
 import FeaturesCarousel from "@/pages/components/FeaturesCarousel";
@@ -13,6 +15,8 @@ export default function Home() {
 
   return (
     <>
+      <SEO title="Waitlist" />
+
       <section className="relative overflow-hidden bg-[#161517] z-10 mx-auto pl-4 sm:pl-8 md:pl-4 lg:pl-[200px] xl:pl-[300px] 2xl:pl-[360px]">
         <div className="absolute inset-0 z-0 overflow-hidden">
           <div className="absolute w-[20rem] h-[20rem] bg-[#6370F5] opacity-80 rounded-full blur-3xl rotate-[-24deg] -left-[8rem] top-[16rem] sm:w-[24rem] sm:h-[24rem] sm:top-[18rem] md:w-[30rem] md:h-[26rem] md:top-[20rem] lg:w-[45rem] lg:h-[40rem] lg:-left-[14rem] lg:top-[20rem]" />
